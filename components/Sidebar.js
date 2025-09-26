@@ -2,7 +2,7 @@
 
 import Link from 'next/link'
 import { usePathname } from 'next/navigation'
-import { BarChart3, Map, Database, FileText, Settings, Menu, X } from 'lucide-react'
+import { BarChart3, Map, Database, FileText, Settings, Shield, Menu, X } from 'lucide-react'
 import { useState } from 'react'
 
 const navigation = [
@@ -10,6 +10,7 @@ const navigation = [
   { name: 'Map', href: '/map', icon: Map },
   { name: 'Data', href: '/data', icon: Database },
   { name: 'Reports', href: '/reports', icon: FileText },
+  { name: 'Admin', href: '/admin', icon: Shield },
   { name: 'Settings', href: '/settings', icon: Settings },
 ]
 
